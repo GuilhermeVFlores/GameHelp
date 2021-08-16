@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.nav {
+  background-color: #ffa5a5;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.botaoContato {
+  border: 0;
+  background-color: #ffb6b6;
+  cursor: pointer;
+  width: 150px;
+  height: 60px;
+  margin: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #440381;
+}
+.banner {
+  background-color: #440381;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+  height: 400px;
+}
+
+.imgBanner {
+  width: 200px;
+}
+.gameHelp {
+  color: white;
+  font-size: 60px;
+}
+
+.sobre {
+  margin: 100px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgSobre {
+  width: 500px;
+}
+.textoSobre {
+  color: #440381;
+  font-size: 50px;
+}
+.pSobre {
+  font-size: 25px;
+  margin-top: 40px;
+  text-align: justify;
+}
+.textoJogos {
+  color: #440381;
+  font-size: 50px;
+}
+.jogos {
+  margin: 100px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jogo {
+  width: 350px;
+  margin-top: 40px;
+  margin-right: 50px;
+}
+.flex {
+  display: flex;
+}
+footer {
+  background-color: #ffa5a5;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  align-items: center;
+}
+footer h2 {
+  border: 0;
+  margin: 20px;
+  font-size: 22px;
+  color: #440381;
+}
+footer img {
+  width: 100px;
+}
